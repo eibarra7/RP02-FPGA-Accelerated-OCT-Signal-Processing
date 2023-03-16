@@ -31,14 +31,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity upsampleby4 is
+entity upsampleby4v1 is
     Port ( input_clk : in std_logic;
            input_sig : in std_logic_vector(15 downto 0);
            output_clk : out std_logic;
            output_sig : out std_logic_vector(63 downto 0));
-end upsampleby4;
+end upsampleby4v1;
 
-architecture Behavioral of upsampleby4 is
+architecture Behavioral of upsampleby4v1 is
     signal counter : integer range 0 to 3 := 0;
     signal buffers : std_logic_vector(15 downto 0) := (others => '0');
     
