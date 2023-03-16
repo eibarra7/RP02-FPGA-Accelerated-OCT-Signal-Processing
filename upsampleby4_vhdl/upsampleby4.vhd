@@ -48,12 +48,12 @@ begin
         if rising_edge(input_clk) then
             buffers <= input_sig;
             output_sig <= (others => '0');
-            output_sig(3 downto 0) <= buffers(3 downto 0);
-            output_sig(19 downto 16) <= buffers(7 downto 4);
-            output_sig(35 downto 32) <= buffers(11 downto 8);
-            output_sig(51 downto 48) <= buffers(15 downto 12);
+            output_sig(63 downto 48) <= buffers(15 downto 0);
+            output_sig(47 downto 32) <= buffers(15 downto 0);
+            output_sig(31 downto 16) <= buffers(15 downto 0);
+            output_sig(15 downto 0)  <= buffers(15 downto 0);
             counter <= counter + 1;
-            if counter = 4 then
+            if counter = 3 then
                 counter <= 0;
                 output_clk <= not input_clk;
             else
@@ -61,7 +61,6 @@ begin
             end if;
         end if;
     end process;
-
    
 
 end Behavioral;
