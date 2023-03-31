@@ -1,0 +1,1632 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "upsampleby4")
+(DATE "Thu Mar 16 12:29:55 2023")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2022.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[10\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[11\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[12\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[13\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[14\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[15\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[2\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[3\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[4\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[5\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[6\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[7\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[8\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE buffers_reg\[9\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE counter\[0\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (78.0:97.0:97.0) (78.0:97.0:97.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE counter\[1\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (82.0:102.0:102.0) (82.0:102.0:102.0))
+      (IOPATH I0 O (90.0:112.0:112.0) (90.0:112.0:112.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE counter_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE counter_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE input_clk_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (72.0:76.0:76.0) (72.0:76.0:76.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_clk_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[12\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[13\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[14\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[15\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE input_sig_IBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (689.3:820.4:820.4) (689.3:820.4:820.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_clk_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_clk_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE output_sig\[51\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (78.0:97.0:97.0) (78.0:97.0:97.0))
+      (IOPATH I0 O (78.0:97.0:97.0) (78.0:97.0:97.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[12\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[13\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[14\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[15\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[16\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[17\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[18\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[19\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[20\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[21\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[22\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[23\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[24\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[25\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[26\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[27\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[28\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[29\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[30\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[31\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[32\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[33\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[34\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[35\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[36\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[37\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[38\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[39\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[40\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[41\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[42\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[43\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[44\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[45\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[46\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[47\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[48\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[49\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[50\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE output_sig_OBUF\[51\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[52\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[53\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[54\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[55\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[56\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[57\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[58\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[59\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[60\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[61\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[62\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[63\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUFT")
+  (INSTANCE output_sig_OBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH T O () () (1788.0:2057.0:2057.0) (1788.0:2057.0:2057.0) (1979.6:2275.4:2275.4) (1979.6:2275.4:2275.4))
+      (IOPATH I O (2096.5:2256.5:2256.5) (2096.5:2256.5:2256.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[16\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[17\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[18\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[19\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[2\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[32\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[33\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[34\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[35\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[3\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[48\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[49\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[50\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE output_sig_reg\[51\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (220.0:275.0:275.0) (220.0:275.0:275.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (63.0:78.0:78.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (negedge D) (posedge C) (-67.0:-55.0:-55.0) (190.0:190.0:190.0))
+      (SETUPHOLD (posedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+      (SETUPHOLD (negedge R) (posedge C) (317.0:395.0:395.0) (-33.0:-33.0:-33.0))
+    )
+)
+(CELL 
+    (CELLTYPE "upsampleby4")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT buffers_reg\[0\]/Q output_sig_reg\[0\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[10\]/Q output_sig_reg\[34\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[11\]/Q output_sig_reg\[35\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[12\]/Q output_sig_reg\[48\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[13\]/Q output_sig_reg\[49\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[14\]/Q output_sig_reg\[50\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[15\]/Q output_sig_reg\[51\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[1\]/Q output_sig_reg\[1\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[2\]/Q output_sig_reg\[2\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[3\]/Q output_sig_reg\[3\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[4\]/Q output_sig_reg\[16\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[5\]/Q output_sig_reg\[17\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[6\]/Q output_sig_reg\[18\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[7\]/Q output_sig_reg\[19\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[8\]/Q output_sig_reg\[32\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT buffers_reg\[9\]/Q output_sig_reg\[33\]/D (408.1:468.0:468.0) (408.1:468.0:468.0))
+      (INTERCONNECT counter\[0\]_i_1/O counter_reg\[0\]/D (64.0:80.0:80.0) (64.0:80.0:80.0))
+      (INTERCONNECT counter\[1\]_i_1/O counter_reg\[1\]/D (64.0:80.0:80.0) (64.0:80.0:80.0))
+      (INTERCONNECT counter_reg\[0\]/Q counter\[0\]_i_1/I0 (279.6:310.0:310.0) (279.6:310.0:310.0))
+      (INTERCONNECT counter_reg\[0\]/Q counter\[1\]_i_1/I0 (373.6:409.0:409.0) (373.6:409.0:409.0))
+      (INTERCONNECT counter_reg\[0\]/Q output_sig\[51\]_i_1/I1 (279.6:310.0:310.0) (279.6:310.0:310.0))
+      (INTERCONNECT counter_reg\[1\]/Q output_sig\[51\]_i_1/I0 (373.6:409.0:409.0) (373.6:409.0:409.0))
+      (INTERCONNECT counter_reg\[1\]/Q counter\[1\]_i_1/I1 (279.6:310.0:310.0) (279.6:310.0:310.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[0\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[10\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[11\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[12\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[13\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[14\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[15\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[1\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[2\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[3\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[4\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[5\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[6\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[7\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[8\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O buffers_reg\[9\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O counter_reg\[0\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O counter_reg\[1\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_clk_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[0\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[16\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[17\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[18\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[19\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[1\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[2\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[32\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[33\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[34\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[35\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[3\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[48\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[49\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[50\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_sig_reg\[51\]/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_BUFG_inst/O output_clk_reg/D (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT input_clk_IBUF_inst/O input_clk_IBUF_BUFG_inst/I (544.5:573.1:573.1) (544.5:573.1:573.1))
+      (INTERCONNECT input_sig_IBUF\[0\]_inst/O buffers_reg\[0\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[10\]_inst/O buffers_reg\[10\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[11\]_inst/O buffers_reg\[11\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[12\]_inst/O buffers_reg\[12\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[13\]_inst/O buffers_reg\[13\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[14\]_inst/O buffers_reg\[14\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[15\]_inst/O buffers_reg\[15\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[1\]_inst/O buffers_reg\[1\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[2\]_inst/O buffers_reg\[2\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[3\]_inst/O buffers_reg\[3\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[4\]_inst/O buffers_reg\[4\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[5\]_inst/O buffers_reg\[5\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[6\]_inst/O buffers_reg\[6\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[7\]_inst/O buffers_reg\[7\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[8\]_inst/O buffers_reg\[8\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT input_sig_IBUF\[9\]_inst/O buffers_reg\[9\]/D (653.5:709.1:709.1) (653.5:709.1:709.1))
+      (INTERCONNECT output_clk_reg/Q output_clk_OBUF_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[0\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[16\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[17\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[18\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[19\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[1\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[2\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[32\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[33\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[34\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[35\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[3\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[48\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[49\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[50\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig\[51\]_i_1/O output_sig_reg\[51\]/CE (409.2:451.0:451.0) (409.2:451.0:451.0))
+      (INTERCONNECT output_sig_reg\[0\]/Q output_sig_OBUF\[0\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[16\]/Q output_sig_OBUF\[16\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[17\]/Q output_sig_OBUF\[17\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[18\]/Q output_sig_OBUF\[18\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[19\]/Q output_sig_OBUF\[19\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[1\]/Q output_sig_OBUF\[1\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[2\]/Q output_sig_OBUF\[2\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[32\]/Q output_sig_OBUF\[32\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[33\]/Q output_sig_OBUF\[33\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[34\]/Q output_sig_OBUF\[34\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[35\]/Q output_sig_OBUF\[35\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[3\]/Q output_sig_OBUF\[3\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[48\]/Q output_sig_OBUF\[48\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[49\]/Q output_sig_OBUF\[49\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[50\]/Q output_sig_OBUF\[50\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      (INTERCONNECT output_sig_reg\[51\]/Q output_sig_OBUF\[51\]_inst/I (639.5:692.1:692.1) (639.5:692.1:692.1))
+      )
+    )
+)
+)
